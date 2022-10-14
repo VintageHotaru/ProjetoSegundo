@@ -1,0 +1,44 @@
+@font-face{
+    font-family:"Alagard";
+    src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
+ }
+
+@font-face{
+    font-family:"Josefin";
+    src: url("fonts/JosefinSans-Light.ttf")
+}
+
+ body{
+    background-image:url("imagesPortas/sand.png");
+    background-size: cover;
+    clear:left;
+  }
+
+  h1{
+	color:#F1F7ED;
+	background-color: #616771;
+
+  padding-left:7px;
+	font-family:Alagard;
+	font-size:42px;
+	margin-top: 18px;
+    clear: right;
+}
+
+.background{
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-left: 200px;
+  width: 50%;
+}
+
+.background h2{
+  font-size:35px;
+  padding-top:10px;
+  padding-left:10px ;
+}
+
+.background p{
+  padding-left: 5px;
+  font-size: 20px;
+}

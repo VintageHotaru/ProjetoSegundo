@@ -1,0 +1,49 @@
+@font-face{
+    font-family:"Alagard";
+    src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
+ }
+
+ 
+@font-face{
+    font-family:"Josefin";
+    src: url("fonts/JosefinSans-Light.ttf")
+}
+
+ body{
+    background-image: url("images/sand.png");
+    background-size: cover;
+    clear: left;
+  }
+
+  h1{
+    padding-left: 7px;
+	color:#F1F7ED;
+	background-color: #616771;
+
+	font-family:Alagard;
+	font-size:42px;
+	margin-top: 18px;
+    clear: right;
+}
+
+.background{
+    background-color: blanchedalmond;
+    display: flex;
+    font-family: Alagard;
+}
+
+h2{
+    font-size: 30px;
+    margin-left: 20px;
+    clear: right;
+}
+
+a{
+  clear:right;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}

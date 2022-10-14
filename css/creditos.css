@@ -1,0 +1,101 @@
+@font-face{
+   font-family:"Alagard";
+   src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
+}
+
+.logo{
+  margin-left: 20px;
+}
+
+body{
+
+	background-image: url("images/sand.png");
+	background-size: cover;
+	clear: left;
+}
+
+h1{
+	color:#F1F7ED;
+	background-color: #616771;
+
+  padding-left:7px;
+	font-family:Alagard;
+	font-size:42px;
+	margin-top: 18px;
+  clear: right;
+}
+p{
+   margin-left: 5px;
+   font-size: 20px;
+   word-spacing: 4px;
+   line-height: 28px;
+}
+
+.container{
+	display: block;
+	margin-left: 48%;
+	margin-right: 50%;
+	width: 50%;
+}
+
+input{ 
+   float: left;
+   margin-right: 400px;
+   margin-top: -74px;
+   margin-left: 1300px;
+   width: 200px;
+   font-size: 35px;
+   font-family: Arial;
+   background-color: #DEDEDE;
+   color:black;
+}
+
+input[type=text]{
+
+ width: 230px;
+ -webkit-transition: width 0.4s ease-in-out;
+ transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 400px;
+} 
+
+p{
+  margin-left: 5px;
+  margin-right: 770px;
+
+}
+
+image{
+    max-width:100%;
+    max-height:100%;
+}
+ 
+.creator-box-left{
+ margin-left: 310px;
+ margin-top:20px ;
+ margin-right: 400px;
+ border: 10px solid transparent;
+ padding: 15px;
+ background-image: url(images/windowborder.png) ;
+ background-repeat: no-repeat;
+}
+
+.creator-box-right{
+ margin-left: 310px;
+ margin-top:20px ;
+ margin-right: 400px;
+ border: 10px solid transparent;
+ padding: 15px;
+ background-image: url(images/windowborder.png) ;
+ background-repeat: no-repeat;
+}
+
+
+::placeholder{
+ color: black;
+}
+
+
+
