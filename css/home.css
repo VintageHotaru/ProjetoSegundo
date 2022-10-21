@@ -43,6 +43,15 @@ h1{
   margin-left: 5px;
 }
 
+.caixa h3{
+  margin-top:2px;
+  font-size:25px;
+  margin-bottom: 8px;
+  font-family: Alagard;
+  margin-left: 5px;
+}
+
+
 .caixa a{
   margin-left: 588px;
   text-decoration: none;
@@ -56,7 +65,7 @@ h1{
 }
 
 .caixa2{
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: 20px;
   margin-right: 1200px;
   background-color: #F1F7ED;
@@ -87,7 +96,7 @@ h1{
   display: block;
   float: left;
   margin-left: 734px;
-  margin-top: -510px;
+  margin-top: -447px;
   margin-right: 20px;
   background-color: #F1F7ED;
   border: 3px black dotted;
@@ -191,7 +200,7 @@ animation-delay: 0.7s;
 }
 
 .image1{
-  margin-top: -510px;
+  margin-top: -447px;
   margin-right: 20px;
   float: right;
   border: 3px white dotted;

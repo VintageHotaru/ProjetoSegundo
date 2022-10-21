@@ -48,6 +48,68 @@ input[type=text]:focus {
   width: 400px;
 } 
 
+.caixa{
+	display: block;
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 1200px;
+	background-color: #F1F7ED;
+	border: 3px black dotted;
+}
+  
+.caixa p{
+	margin-top: 10px;
+	font-size: 19px;
+	margin-left: 5px;
+}
+
+.caixa li{
+	margin-top: 10px;
+	font-size: 19px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+ 
+.caixa h2{
+  margin-top:2px;
+  font-size:40px;
+  margin-bottom: 8px;
+  font-family: Alagard;
+  margin-left: 5px;
+}
+
+.animate {
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+}
+  
+.one {
+ -webkit-animation-delay: 0.5s;
+ -moz-animation-delay: 0.5s;
+ animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+}
+
+.fadeInUp {
+ -webkit-animation-name: fadeInUp;
+ animation-name: fadeInUp;
+}  
+
 ::placeholder{
  color: black;
 }
