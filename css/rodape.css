@@ -1,0 +1,15 @@
+@font-face{
+    font-family:"Josefin";
+    src: url("fonts/Josefin (static)/JosefinSans-Light.ttf");
+}
+
+footer{
+    width:100%;
+    margin-top: 200px;
+    flex-grow: 1;
+    background-color:black;
+    font-family: Josefin;
+    color: aliceblue;
+    padding: 3em;
+    margin-top: auto;
+}
