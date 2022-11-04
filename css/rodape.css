@@ -3,13 +3,15 @@
     src: url("fonts/Josefin (static)/JosefinSans-Light.ttf");
 }
 
-footer{
-    width:100%;
-    margin-top: 200px;
-    flex-grow: 1;
-    background-color:black;
+.footer{
+    height:60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     font-family: Josefin;
-    color: aliceblue;
-    padding: 3em;
-    margin-top: auto;
+    font-size:18px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(59, 59, 59) 60%, #7F7F7F);
 }
