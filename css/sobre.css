@@ -3,6 +3,11 @@
    src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
 }
 
+@font-face{
+	font-family:"Josefin";
+	src: url("fonts/JosefinSans-Light.ttf")
+}
+
 html{
 	width:100%;
 	height:100%;
@@ -63,12 +68,14 @@ input[type=text]:focus {
 }
   
 .caixa p{
+	font-family: Josefin;
 	margin-top: 10px;
 	font-size: 19px;
 	margin-left: 5px;
 }
 
 .caixa li{
+	font-family: Josefin;
 	margin-top: 10px;
 	font-size: 19px;
 	margin-left: 5px;
