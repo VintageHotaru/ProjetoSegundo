@@ -1,44 +1,136 @@
 @font-face{
-    font-family:"Alagard";
-    src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
- }
-
-@font-face{
-    font-family:"Josefin";
-    src: url("fonts/JosefinSans-Light.ttf")
+  font-family:"Alagard";
+  src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
 }
 
- body{
-    background-image:url("imagesPortas/sand.png");
-    background-size: cover;
-    clear:left;
-  }
+@font-face{
+  font-family:"Josefin";
+  src: url("fonts/JosefinSans-Light.ttf")
+}
 
-  h1{
-	color:#F1F7ED;
-	background-color: #616771;
+body{
+  background-image:url("imagesPortas/sand.png");
+  background-size: cover;
+  clear:left;
+}
 
-  padding-left:7px;
-	font-family:Alagard;
-	font-size:42px;
-	margin-top: 18px;
-    clear: right;
+h1{
+color:#F1F7ED;
+background-color: #616771;
+
+padding-left:7px;
+font-family:Alagard;
+font-size:42px;
 }
 
 .background{
-  font-family: Josefin;
-  background-color: antiquewhite;
-  margin-left: 200px;
-  width: 50%;
+font-family: Josefin;
+background-color: antiquewhite;
+margin-left: 200px;
+width: 50%;
+border: 3px black dotted;
 }
 
 .background h2{
-  font-size:35px;
-  padding-top:10px;
-  padding-left:10px ;
+font-size:35px;
+padding-left:10px ;
 }
 
 .background p{
-  padding-left: 5px;
-  font-size: 20px;
+margin-left: 5px;
+padding-left: 5px;
+font-size: 20px;
+}
+
+.background h3{
+margin-left:7px;
+font-size: 18px;
+}
+
+.background h4{
+margin-top:-10px;
+font-size:23px;
+margin-left:5px;
+font:bold;
+}
+
+.caixa{
+position:sticky;
+float:right;
+font-family: Josefin;
+background-color: antiquewhite;
+margin-right: 200px;
+margin-top:-669px;
+width:500px;
+border: 3px black dotted;
+}
+
+.caixa h2{
+font-size:30px;
+padding-left:10px ;
+}
+
+.caixa img{
+margin-left:13px;
+margin-bottom:10px;
+}
+
+.caixa2 {
+position:sticky;
+float:right;
+font-family: Josefin;
+background-color: antiquewhite;
+margin-right: 200px;
+margin-top:-340px;
+width:500px;
+border: 3px black dotted;
+}
+
+.caixa2 h2{
+font-size:30px;
+padding-left:10px ;
+}
+
+.caixa2 img{
+margin-left:13px;
+margin-bottom:10px;
+}
+
+.animate {
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+}
+
+.one {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.two {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+@keyframes fadeInRight {
+from{
+  opacity: 0;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+to{
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+}
+
+}
+
+.fadeInRight{
+-webkit-animation-name: fadeInRight;
+animation-name: fadeInRight;
 }
