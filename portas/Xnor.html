@@ -5,6 +5,7 @@
    <title> Logic Learn </title>
    <link rel="stylesheet" type="text/css" href="cssPortas/portasXnor.css">
    <link rel="stylesheet" type="text/css" href="cssPortas/navbar.css">
+   <link rel="stylesheet" type="text/css" href="cssPortas/rodape.css">
   </head>
 
   <body>
@@ -26,17 +27,77 @@
           <a href="../SeccoesPortas.html">Portas logicas</a>
           <a href="../SeccoesCircuitos.html">Circuitos</a>
           <a href="../SeccoesTabelas.html">Tabelas</a>
+          <a href="../SeccoesComponentes.html"> Componentes </a>
         </div>
       </div>
     </div> 
       <input type="text" name="search" placeholder="...">
     
       <div class="background">
-        <h2> Porta Xnor (Porta Exclusiva Nao+E)</h2>
-         <p>
-            A porta logica Xnor, tambem conhecida como exclusiva Not + Or ou exclusiva Nao + E,
-         </p>
-          
+        <h2> Portas Logicas</h2>
+         <ul>
+          <a href="And.html">Porta And</a>
+          <a href="Or.html">Porta Or</a>
+          <a href="Not.html">Porta Not</a>
+          <a href="Nand.html">Porta Nand</a>
+          <a href="Nor.html">Porta Nor</a>
+          <a href="Xnor.html">Porta Xnor</a>
+          <a href="Xor.html">Porta Xor</a>
+         </ul>
       </div>
+
+      <div class="background2">
+        <h2> ✵ Porta Xnor (Porta Exclusiva Nao+E)</h2>
+         <p>
+            A porta logica Xnor, tambem conhecida como exclusiva Not + Or ou exclusiva Nao + E, é representada pelo
+            formato da porta NOR com um linha na parte de trás (proxima as entradas) representando uma combinação de
+            portas logicas.
+         </p>
+         <p>
+          Esta porta pode ser feita ao aplicar o resultado de uma porta NOR em outras duas portas NOR que passaram suas
+          saidas a uma quarta porta NOR. Esse circuito tambem pode ser feito com 4 portas NAND nas mesmas posicoes,
+          com uma porta NAND adicional no final do circuito com ambas entradas conectadas com a saida das portas anteriores. </p>
+          <p> Em resumo, a porta XNOR, que pode ser composta de 4 portas NOR ou 5 portas NAND, é capaz de fornecer uma 
+          saida positiva quando as duas entradas iniciais são iguais, independente de serem positivas ou negativas.
+          Podemos dizer que XOR e XNOR são opostas!
+         </p>
+         <br>
+         <p> Exemplo 1 - Entrada A e B são negativas </p>  
+         <h3> - Ambas entradas são negativas porém iguais, logo a saida será 1 </h3>
+         <p> Exemplo 2 - Entrada A é positiva e entrada B é negativa </p>
+         <h3> - Entradas são diferentes, logo a saida será 0 </h3>
+         <p> Exemplo 3 - Entrada A e B são positivas </p>        
+         <h3> - As entradas são positivas e iguais, logo a saida será 1 </h3>
+         <br>
+         <h4> ❇ Em Resumo</h4>
+         <h3> Entradas negativas, porém iguais --> saida = 1 </h3>
+         <h3> Entradas diferentes --> saida = 0 </h3>
+         <h3> Entradas positivas e iguais --> saida = 1 </h3>
+      </div>
+
+      <div class="box animate fadeInRight one">
+        <div class="caixa">
+          <h2> Tabela da Verdade </h2>
+          <img src="cssPortas/imagesPortas/tabelaTXnor.png">
+        </div> </div>
+  
+      <div class="box animate fadeInRight two">
+        <div class="caixa2">
+          <h2> Porta Xnor </h2>
+         <img src="cssPortas/imagesPortas/portaXnor.png">
+        </div> </div>
+
+      <div class="box animate fadeInRight three">
+        <div class="caixa3">
+          <h2> Porta Xnor decomposta (versão NOR)</h2>
+          <img src="cssPortas/imagesPortas/PortaXnorDec.png">
+        </div>
+      </div>
+    
+        <div class="footer">
+          <br>
+          @ 2022 Logic Learn
+        </div>
+  
   </body>
 </html>

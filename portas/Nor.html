@@ -5,6 +5,7 @@
    <title> Logic Learn </title>
    <link rel="stylesheet" type="text/css" href="cssPortas/portasNor.css">
    <link rel="stylesheet" type="text/css" href="cssPortas/navbar.css">
+   <link rel="stylesheet" type="text/css" href="cssPortas/rodape.css">
   </head>
 
   <body>
@@ -26,17 +27,55 @@
           <a href="../SeccoesPortas.html">Portas logicas</a>
           <a href="../SeccoesCircuitos.html">Circuitos</a>
           <a href="../SeccoesTabelas.html">Tabelas</a>
+          <a href="../SeccoesComponentes.html"> Componentes </a>
         </div>
       </div>
     </div> 
       <input type="text" name="search" placeholder="...">
     
       <div class="background">
-        <h2> Porta Nor (Porta Nao+Ou)</h2>
+        <h2> Portas Logicas</h2>
+         <ul>
+          <a href="And.html">Porta And</a>
+          <a href="Or.html">Porta Or</a>
+          <a href="Not.html">Porta Not</a>
+          <a href="Nand.html">Porta Nand</a>
+          <a href="#">Porta Nor</a>
+          <a href="Xnor.html">Porta Xnor</a>
+          <a href="Xor.html">Porta Xor</a>
+         </ul>
+      </div>
+
+      <div class="background2">
+        <h2> ✵ Porta Nor (Porta Nao+Ou)</h2>
          <p>
-            A porta logica Nor, tambem conhecida como Not + Or ou Nao + Ou,
+            A porta logica Nor, tambem conhecida como Not + Or ou Nao + Ou, é representada pelo formato
+            da porta OR com um circulo antes da saida (representando a porta Not). </p>
+         <p> Esta funciona como oposto da porta OR e apenas terá sinal positivo como saida 
+             se ambas as entradas forem negativas.
          </p>
-          
+         <br>
+         <p> Exemplo 1 - Entrada A e B são negativas </p>  
+         <h3> - Nenhuma entrada é positiva , logo a saida será 1 </h3>
+         <p> Exemplo 2 - Entrada A é positiva e entrada B é negativa </p>
+         <h3> - A entrada B é negativa porém a entrada A é positiva, logo a saida sera 0 </h3>
+         <p> Exemplo 3 - Entrada A e B são positivas </p>        
+         <h3> - Nenhuma entrada é negativa, logo a saida é 0 </h3>
+         <br>
+         <h4> ❇ Em Resumo</h4>
+         <h3> Nenhuma entrada positiva --> saida = 1 </h3>
+         <h3> Uma ou ambas entradas são positivas --> saida = 0 </h3>
+      </div>
+
+      <div class="box animate fadeInRight one">
+        <div class="caixa">
+          <h2> Tabela da Verdade </h2>
+          <img src="cssPortas/imagesPortas/tabelaTNor.png">
+        </div> </div>
+
+      <div class="footer">
+        <br>
+        @ 2022 Logic Learn
       </div>
   </body>
 </html>

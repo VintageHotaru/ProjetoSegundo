@@ -8,10 +8,15 @@
     src: url("fonts/JosefinSans-Light.ttf")
 }
 
+html{
+  height:100%
+}
+
  body{
     background-image:url("imagesPortas/sand.png");
     background-size: cover;
     clear:left;
+    min-height: 120%;
   }
 
   h1{
@@ -26,19 +31,164 @@
 }
 
 .background{
-  font-family: Josefin;
-  background-color: antiquewhite;
-  margin-left: 200px;
-  width: 50%;
+  background-color: blanchedalmond;
+  display: flex;
+  font-family: Alagard;
 }
 
 .background h2{
+  font-size: 30px;
+  margin-left: 20px;
+  clear: right;
+}
+
+.background a{
+margin-top: 5px;  
+font-size: 20px;
+margin-left: 2px;
+}
+
+.background a:hover{
+  color: red;
+}
+
+.background2{
+  height:100%;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-top:50px;
+  margin-left: 200px;
+  width: 50%;
+  border: 3px black dotted;
+}
+
+.background2 h2{
   font-size:35px;
-  padding-top:10px;
   padding-left:10px ;
 }
 
-.background p{
+.background2 p{
+  margin-left: 5px;
   padding-left: 5px;
   font-size: 20px;
+}
+
+.background2 h3{
+  margin-left:7px;
+  font-size: 18px;
+}
+
+.background2 h4{
+  margin-top:-10px;
+  font-size:23px;
+  margin-left:5px;
+  font:bold;
+}
+
+.caixa{
+  position:sticky;
+  float:right;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-right: 220px;
+  margin-top:-900px;
+  width:500px;
+  border: 3px black dotted;
+}
+
+.caixa h2{
+  font-size:30px;
+  padding-left:10px ;
+}
+
+.caixa img{
+  margin-left:13px;
+  margin-bottom:10px;
+}
+
+.caixa2 {
+  position:sticky;
+  float:right;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-right: 220px;
+  margin-top:-560px;
+  width:500px;
+  border: 3px black dotted;
+}
+
+.caixa2 h2{
+  font-size:30px;
+  padding-left:10px ;
+}
+
+.caixa2 img{
+  margin-left:13px;
+  margin-bottom:10px;
+}
+
+.caixa3 {
+  position:sticky;
+  float:right;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-right: 20px;
+  margin-top:-265px;
+  width:700px;
+  border: 3px black dotted;
+}
+
+.caixa3 h2{
+  font-size:30px;
+  padding-left:10px ;
+}
+
+.caixa3 img{
+  margin-left:13px;
+  margin-bottom:10px;
+}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.two {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.three {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  }
+
+@keyframes fadeInRight {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+}
+
+.fadeInRight{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
