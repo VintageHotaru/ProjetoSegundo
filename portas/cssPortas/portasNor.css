@@ -8,10 +8,14 @@
     src: url("fonts/JosefinSans-Light.ttf")
 }
 
+html{
+  height:100%;
+}
  body{
     background-image:url("imagesPortas/sand.png");
     background-size: cover;
     clear:left;
+    min-height: 110%;
   }
 
   h1{
@@ -100,6 +104,49 @@ margin-left: 2px;
   margin-bottom:10px;
 }
 
+
+.caixa2 {
+  position:sticky;
+  float:right;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-right: 200px;
+  margin-top:-360px;
+  width:500px;
+  border: 3px black dotted;
+}
+
+.caixa2 h2{
+  font-size:30px;
+  padding-left:10px ;
+}
+
+.caixa2 img{
+  margin-left:13px;
+  margin-bottom:10px;
+}
+
+.caixa3 {
+  position:sticky;
+  float:right;
+  font-family: Josefin;
+  background-color: antiquewhite;
+  margin-right: 200px;
+  margin-top:-80px;
+  width:500px;
+  border: 3px black dotted;
+}
+
+.caixa3 h2{
+  font-size:30px;
+  padding-left:10px ;
+}
+
+.caixa3 img{
+  margin-left:13px;
+  margin-bottom:10px;
+}
+
 .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -108,15 +155,21 @@ margin-left: 2px;
 }
 
 .one {
+-webkit-animation-delay: 0.3s;
+-moz-animation-delay: 0.3s;
+animation-delay: 0.3s;
+}
+
+.two {
 -webkit-animation-delay: 0.5s;
 -moz-animation-delay: 0.5s;
 animation-delay: 0.5s;
 }
 
-.two {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
+.three {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
 @keyframes fadeInRight {
