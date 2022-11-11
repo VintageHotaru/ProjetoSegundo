@@ -85,6 +85,7 @@ image{
   margin-bottom: 25px;
   margin-left:20px;
   z-index:1;
+  border: 3px black dotted;
 }
 
 .creator-box-1 h2{
@@ -99,6 +100,7 @@ image{
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   margin-right: 710px;
+  border: 3px black dotted;
 }
 
 .creator-box-2 h2{
@@ -114,6 +116,7 @@ image{
   margin-bottom: 25px;
   margin-right: 105px;
   margin-top:-370px;
+  border: 3px black dotted;
 }
 
 .creator-box-3 h2{
@@ -128,6 +131,7 @@ image{
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   margin-left: 275px;
+  border: 3px black dotted;
 }
 
 .creator-box-4 h2{
@@ -142,6 +146,7 @@ image{
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   margin-right:450px;
+  border: 3px black dotted;
 }
 
 .creator-box-5 h2{
