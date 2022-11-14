@@ -1,0 +1,183 @@
+@font-face{
+    font-family:"Alagard";
+    src: url("fonts/Alagard (Hewett Tsoi)/alagard.ttf");
+ }
+ 
+ @font-face{
+   font-family:"Josefin";
+   src: url("fonts/JosefinSans-Light.ttf")
+ }
+
+ body{
+
+	background-image: url("images/sand.png");
+	background-size: cover;
+	clear: left;
+}
+
+h1{
+	color:#F1F7ED;
+	background-color: #616771;
+
+  padding-left:7px;
+	font-family:Alagard;
+	font-size:42px;
+	margin-top: 18px;
+  clear: right;
+}
+p{
+   margin-left: 5px;
+   font-size: 20px;
+   word-spacing: 4px;
+   line-height: 28px;
+}
+
+.container{
+	display: block;
+	margin-left: 48%;
+	margin-right: 50%;
+	width: 50%;
+}
+
+input{ 
+   float: left;
+   margin-right: 400px;
+   margin-top: -74px;
+   margin-left: 1300px;
+   width: 200px;
+   font-size: 35px;
+   font-family: Arial;
+   background-color: #DEDEDE;
+   color:black;
+}
+
+input[type=text]{
+
+ width: 230px;
+ -webkit-transition: width 0.4s ease-in-out;
+ transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 400px;
+} 
+
+.caixa-1{
+  display: block;
+  margin-top: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #F1F7ED;
+  border: 3px black dotted;
+}
+
+.caixa-1 h2{
+    margin-top:14px;
+    font-family: Alagard;
+    margin-left: 2px;
+    font-size: 40px;
+}
+
+.caixa-1 p{
+    font-family: Josefin;
+}
+
+.caixa-link{
+    display: block;
+    margin-top:15px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #F1F7ED;
+    border: 3px black dotted;
+}
+
+.caixa-link h2{
+    margin-top:14px;
+    font-family: Alagard;
+    margin-left: 2px;
+    font-size: 40px;
+}
+
+.caixa-link h3{
+    font-family: Josefin;
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.caixa-link ul{
+    font-family: Josefin;
+    font-size:25px;
+    margin-right:200px;
+}
+
+.caixa-link a{
+    color:purple;
+    text-decoration: none;
+}
+
+.caixa-link a:hover{
+  color:red;
+}
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.one {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.two {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+
+@keyframes fadeInRight {
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+  }
+
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft{
+  from{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+  }
+
+  to{
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+}
+
+.fadeInRight{
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+::placeholder{
+    color: black;
+   }
+   
