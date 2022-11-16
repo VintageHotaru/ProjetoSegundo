@@ -18,6 +18,7 @@ body{
      background-image: url("images/sand.png");
      background-size: cover;
      clear: left;
+     min-height: 120%;
 }
  
 h1{
@@ -102,6 +103,14 @@ input[type=text]:focus {
      font-size: 30px;
      margin-left: 6px;
 }
+
+.caixa2 h3{
+     font-size:20px;
+     font-weight: lighter;
+     margin-top: 2px;
+     font-family: Josefin;
+     margin-left: 5px;
+}
  
 .caixa2 p{
      margin-left: 6px;
@@ -109,6 +118,10 @@ input[type=text]:focus {
      font-size:22px;
      overflow: hidden;
      text-overflow: ellipsis;
+}
+
+.caixa2 img{
+     margin-left: 10px;
 }
 
 .animate {
