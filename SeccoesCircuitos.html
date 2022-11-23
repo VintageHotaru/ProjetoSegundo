@@ -37,17 +37,21 @@
   <div class="box animate fadeInUp one">
     <div class="caixa">
         <h2> Circuitos Flip-Flop </h2>
-          <p>  Os flip-flops são um dos exemplos mais comuns de circuitos lógicos aplicados em sistema gerais.</p>
+          <p>  Os flip-flops são um dos exemplos mais comuns de circuitos lógicos aplicados em sistema gerais na qual possuem multiplas funções (Contação, Deslocação e Conversão de dados por exemplo)</p>
           <p> Circuitos eletronicos podem ser divididos em duas categorias: combinacionais e sequenciais. </p>
           <p> Enquanto as portas comuns compoem os combinacionais porque apenas a entrada afeta a saida, os flip-flops compoem os sequenciais 
               na qual ambas as entradas e a saida atual de uma porta afetam a saida final. </p>
-          <p> O circuito Flip-Flop mais comum é um exemplo perfeito de circuitos Sequenciais! </p>
-          <p> Set e Reset </p>
+          <p> O circuito Flip-Flop Basico (SR) é um exemplo perfeito de circuitos Sequenciais! </p>
+          <p> Ambas as entradas de um circuito Flip Flop são lidas respectivamente como Set e Reset, e suas saídas Q e Q'. Set significa colocar entrada 1 no flip-flop enquanto 
+            Reset significa colocar 0. </p>
+          <p> Algo a se lembrar é o fato de que todos os flip-flops anteriores á Clock JK possuem um estado proibido que ocorre quando ambas as entradas são 
+            positivas, fazendo com que as duas saidas sejam invalidas já que é impossivel obter este resultado.
+          </p>
     </div> </div>
 
   <div class="box animate fadeInRight two">
    <div class="caixa2">
-    <h2> Flip-Flop Basico </h2>
+    <h2> Flip-Flop Basico (SR) </h2>
      <img src="css/images/CircuitosFF.png">
      <br>
      <br>
@@ -61,8 +65,22 @@
   
   <div class="box animate fadeInRight three">
     <div class="caixa3">
-      <h2> Flip-Flop Comum </h2>
-      <p> O Flip-flop comum </p>
+      <h2> Flip-Flop Basico (SR) </h2>
+      <p> O Flip-Flop Basico ou Flip-Flop Set Reset possui 2 entradas (Set e Reset) e 2 saidas demarcadas Q e Q', na qual Q' sera sempre o oposto de Q.</p>
+      <h4> -> exemplo: se Q=0, logo Q'=1! </h4>
+      <h2> Flip-Flop Clock </h2>
+      <p> O Flip-Flop Clock é um flip-flop basico com uma terceira entrada para Clock, na qual permite que o sistema pode ser ligado ou desligado. O Flip-Flop Clock 
+        continuou a ser usado para melhorar outros Flip-Flops futuros.
+      </p>
+      <h2> Outros Flip-Flops </h2>
+      <p> ✵ Flip-Flop Clock JK: evolução do Flip-Flop RS que troca S e R por J e K e é capaz de identificar estado proibido!</p>
+      <h4> -> Clock JK identifica estado proibido e sua saída é uma oscilação rapida de 1 e 0 em ambas as saidas </h4>
+      <p> ✵ Flip-Flop JK MS: apenas funciona durante a transição de uma oscilação em sua entrada </p>
+      <h4> -> Se CLK possui porta Not: Flip-Flop apenas funciona durante a transição de 1 a 0, ou seja, na borda de descida.</h4>
+      <h4> -> Se CLK é normal: Flip-Flop apenas funciona durante a transição de 0 para 1, ou seja, na borda de subida.</h4>
+      <p> ✵ Flip-Flop JK MS Preset Clear: Flip-Flop JK MS com 2 novas entradas Preset e Clear </p>
+      <h4> -> Se entrada Preset = 1 : saida Q = 1 </h4>
+      <h4> -> Se entrada Reset = 1: saida Q = 0 </h4>
     </div>
   </div>
 

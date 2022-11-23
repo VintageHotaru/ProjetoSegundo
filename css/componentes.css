@@ -124,6 +124,15 @@ input[type=text]:focus {
      margin-left: 10px;
 }
 
+.caixa2 a{
+     text-decoration: none;
+     color:purple;
+}
+
+.caixa2 a:hover{
+     color:red;
+}
+
 .animate {
      -webkit-animation-duration: 1s;
      animation-duration: 1s;
