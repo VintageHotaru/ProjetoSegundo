@@ -103,7 +103,7 @@ h1{
   display: block;
   float: left;
   margin-left: 380px;
-  margin-top: -242px;
+  margin-top: -225px;
   margin-right: 20px;
   background-color: #F1F7ED;
   border: 3px black dotted;
@@ -209,10 +209,11 @@ animation-delay: 0.7s;
 
 .image1{
   display: block;
-  margin-top: -447px;
+  margin-top: -462px;
   margin-right: 20px;
+  margin-bottom:-10px;
   float: right;
-  border: 3px white dotted;
+  border:2px white dashed;
 }
 
 ::placeholder{
