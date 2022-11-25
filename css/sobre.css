@@ -83,21 +83,51 @@ input[type=text]:focus {
 }
  
 .caixa h2{
-  margin-top:2px;
+  margin-top:5px;
   font-size:40px;
   margin-bottom: 8px;
   font-family: Alagard;
-  margin-left: 5px;
+  margin-left: 7px;
 }
 
 .image1{
   width: auto;
-  height:502px;
-  margin-top: -507px;
+  height:530px;
+  margin-top: -540px;
   margin-right: 665px;
   float: right;
   border: 3px white dotted;
+  width:500px;
 }
+
+.caixa2{
+	display: block;
+	float:right;
+	margin-top: -540px;
+	margin-left: 20px;
+	margin-right:15px;
+	background-color: #F1F7ED;
+	border: 3px black dotted;
+	width:620px;
+}
+  
+.caixa2 p{
+	font-family: Josefin;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom:19px;
+	font-size: 23px;
+	margin-left: 5px;
+}
+ 
+.caixa2 h2{
+	margin-top:5px;
+	font-size:40px;
+	margin-bottom: 8px;
+	font-family: Alagard;
+	margin-left: 7px;
+}
+
 
 .animate {
  -webkit-animation-duration: 1s;
@@ -107,15 +137,21 @@ input[type=text]:focus {
 }
   
 .one {
- -webkit-animation-delay: 0.5s;
- -moz-animation-delay: 0.5s;
- animation-delay: 0.5s;
+ -webkit-animation-delay: 0.3s;
+ -moz-animation-delay: 0.3s;
+ animation-delay: 0.3s;
 }
 
 .two {
--webkit-animation-delay: 0.7s;
--moz-animation-delay: 0.7s;
-animation-delay: 0.7s;
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.three {
+	-webkit-animation-delay: 0.7s;
+	-moz-animation-delay: 0.7s;
+	animation-delay: 0.7s;
 }
 
 @keyframes fadeInUp {

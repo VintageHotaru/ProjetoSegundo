@@ -74,7 +74,7 @@ input[type=text]:focus {
 .caixa-1 h2{
     margin-top:14px;
     font-family: Alagard;
-    margin-left: 2px;
+    margin-left: 7px;
     font-size: 40px;
 }
 
@@ -94,7 +94,7 @@ input[type=text]:focus {
 .caixa-link h2{
     margin-top:14px;
     font-family: Alagard;
-    margin-left: 2px;
+    margin-left: 7px;
     font-size: 40px;
 }
 
@@ -108,6 +108,10 @@ input[type=text]:focus {
     font-family: Josefin;
     font-size:25px;
     margin-right:200px;
+}
+
+.caixa-link li{
+  margin-bottom:5px;
 }
 
 .caixa-link a{

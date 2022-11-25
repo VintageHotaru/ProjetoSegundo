@@ -32,15 +32,16 @@
 }
 
 .background h2{
-    font-size: 30px;
-    margin-left: 20px;
-    clear: right;
+  font-size: 30px;
+  margin-left: 20px;
+  clear: right;
 }
 
 .background a{
-  margin-top: 5px;  
-  font-size: 20px;
-  margin-left: 2px;
+   display:inline-flex;
+   margin-top:10px;  
+   font-size: 24px;
+   margin-left: 15px;
 }
 
 a:hover{
