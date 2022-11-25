@@ -94,7 +94,7 @@ input[type=text]:focus {
      font-family: Alagard;
      display: block;
      margin-top:-815px;
-     margin-right:190px;
+     margin-right:220px;
      background-color: #F1F7ED;
      border: 3px black dotted;
 }
@@ -124,6 +124,27 @@ input[type=text]:focus {
      margin-left: 10px;
 }
 
+.caixa3{
+     width:750px;
+     float:right;
+     font-family: Alagard;
+     display: block;
+     margin-top:-385px;
+     margin-right:320px;
+     background-color: #F1F7ED;
+     border: 3px black dotted;
+}
+ 
+.caixa3 h2{
+     font-size: 30px;
+     margin-left: 6px;
+}
+
+.caixa3 img{
+     margin-left: 20px;
+     margin-bottom: 20px;
+}
+
 .caixa2 a{
      text-decoration: none;
      color:purple;
@@ -141,15 +162,21 @@ input[type=text]:focus {
 }
    
 .one {
+   -webkit-animation-delay: 0.3s;
+   -moz-animation-delay: 0.3s;
+   animation-delay: 0.3s;
+}
+   
+.two {
    -webkit-animation-delay: 0.5s;
    -moz-animation-delay: 0.5s;
    animation-delay: 0.5s;
 }
-   
-.two {
-   -webkit-animation-delay: 0.7s;
-   -moz-animation-delay: 0.7s;
-   animation-delay: 0.7s;
+
+.three {
+     -webkit-animation-delay: 0.7s;
+     -moz-animation-delay: 0.7s;
+     animation-delay: 0.7s;
 }
 
 @keyframes fadeInRight {

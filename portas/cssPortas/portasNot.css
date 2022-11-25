@@ -43,9 +43,10 @@ clear: right;
 }
 
 .background a{
-margin-top: 5px;  
-font-size: 20px;
-margin-left: 2px;
+   display:inline-flex;
+   margin-top:10px;  
+   font-size: 24px;
+   margin-left: 15px;
 }
 
 .background a:hover{

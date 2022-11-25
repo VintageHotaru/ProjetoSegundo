@@ -8,6 +8,10 @@
   src: url("fonts/JosefinSans-Light.ttf")
 }
 
+html{
+  height:auto;
+}
+
 body{
   background-image: url("images/sand.png");
   background-size: cover;
@@ -209,6 +213,7 @@ animation-delay: 0.7s;
 
 .image1{
   display: block;
+  height:460px;
   margin-top: -462px;
   margin-right: 20px;
   margin-bottom:-10px;
